@@ -489,7 +489,7 @@
 				</NormalTexture>
 				<Layers>
 					<Layer level="ARTWORK">
-						<FontString name="$parentVersion" font="Fonts\FRIZQT__.ttf" justifyH="LEFT">
+						<FontString name="$parentVersion" font="Fonts\2002.ttf" justifyH="LEFT">
 							<Anchors>
 								<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT">
 									<Offset x="16" y="0"/>
@@ -523,17 +523,17 @@
 		</Layers>
 	</Frame>
 	
-	<Font name="ATSWFont" virtual="true" font="Fonts\FRIZQT__.ttf">
+	<Font name="ATSWFont" virtual="true" font="Fonts\2002.ttf">
 		<FontHeight val="17"/>
 		<Color r="0" g="0" b="0" a="1"/>
 	</Font>
 	
-	<Font name="CostFont" virtual="true" font="Fonts\FRIZQT__.ttf">
+	<Font name="CostFont" virtual="true" font="Fonts\2002.ttf">
 		<FontHeight val="11"/>
 		<Color r="0" g="0" b="0" a="1"/>
 	</Font>
 	
-	<Font name="ATSWReagentFont" virtual="true" font="Fonts\FRIZQT__.ttf">
+	<Font name="ATSWReagentFont" virtual="true" font="Fonts\2002.ttf">
 		<FontHeight val="11"/>
 		<Shadow>
 			<Color a="1" r="0" g="0" b="0"/>
@@ -541,12 +541,12 @@
 		</Shadow>
 	</Font>
 	
-	<Font name="ATSWYellowFont" virtual="true" font="Fonts\FRIZQT__.ttf" outline="NORMAL">
+	<Font name="ATSWYellowFont" virtual="true" font="Fonts\2002.ttf" outline="NORMAL">
 		<FontHeight val="10"/>
 		<Color r="1" g="0.82" b="0" a="1"/>
 	</Font>
 	
-	<Font name="ATSWYellowFontThin" virtual="true" font="Fonts\FRIZQT__.ttf" outline="THIN">
+	<Font name="ATSWYellowFontThin" virtual="true" font="Fonts\2002.ttf" outline="THIN">
 		<FontHeight val="10"/>
 		<Color r="1" g="0.82" b="0" a="1"/>
 	</Font>
@@ -1255,7 +1255,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						this:SetFont("Fonts\\FRIZQT__.ttf", 10.5)
+						this:SetFont("Fonts\\2002.ttf", 10.5)
 						this:SetWidth(this:GetTextWidth()+20)
 					</OnLoad>
 					<OnClick>
@@ -1493,7 +1493,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						this:SetFont("Fonts\\FRIZQT__.ttf", 13.5)
+						this:SetFont("Fonts\\2002.ttf", 13.5)
 					</OnLoad>
 					<OnClick>
 						ATSWAmountBox:ClearFocus()
