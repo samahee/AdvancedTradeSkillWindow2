@@ -4931,10 +4931,10 @@ function ATSW_DisplayRecipeTooltip()
 				if AtlasLoot then
 					Offset = -16
 					ATSWRecipeTooltipTextureLeft4:SetTexture()
-					ATSWRecipeTooltipTextLeft2:SetFont("Fonts\\FRIZQT__.ttf", 11)
+					ATSWRecipeTooltipTextLeft2:SetFont("Fonts\\2002.ttf", 11)
 				else
 					Offset = 2
-					ATSWRecipeTooltipTextLeft2:SetFont("Fonts\\FRIZQT__.ttf", 12)
+					ATSWRecipeTooltipTextLeft2:SetFont("Fonts\\2002.ttf", 12)
 				end
 				
 				getglobal("ATSWRecipeTooltipTextLeft" .. 4):SetPoint("LEFT", "ATSWRecipeTooltipTextureLeft4", "RIGHT", Offset, 0)
